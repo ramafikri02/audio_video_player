@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+
+/* SIDEBAR */
+.sidebar {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: rgb(60, 48, 224);
+    padding-top: 50px;
+}
+
+.sidebar h1 {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Rubik';
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.sidebar i {
+    margin: 0 8px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Rubik';
+    letter-spacing: 2px;
+}
+
+.sidebar a:hover {
+    color: #d4d1d1;
+    margin-left: 20px;
+    transition: 0.4s;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.container h1 {
+    font-family: 'Rubik';
+    text-align: center;
+}
+
+
+/* FOR VIDEO */
+.card {
+    float: left;
+    width: 310px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.card video {
+    height: 70%;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.card video:hover {
+    transform: scale(1.1);
+}
+
+.card-body p {
+    font-family: 'Chivo', sans-serif;
+}
+
+
+/* FOR MUSIC */
+.row-audio {
+    margin-top: 40px;
+}
+
+audio {
+    background-color: blue;
+    box-shadow: 2px 2px 4px 0px #000000;
+    border-radius: 7px 7px 7px 7px;
+}
